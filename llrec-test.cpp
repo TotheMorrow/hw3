@@ -67,7 +67,9 @@ void dealloc(Node* head)
 //   function object struct declarations
 // -----------------------------------------------
 
-
+bool pred(int value) {
+  return value % 2 == 0;
+}
 
 
 
@@ -84,12 +86,18 @@ int main(int argc, char* argv[])
     Node* head = readList(argv[1]);
     cout << "Original list: ";
     print(head);
-
-    // Test out your linked list code
-
-
-
     
+    // test out llfilter and llpivot
+    Node* filteredList = llfilter(head, pred);
+    cout << "Filtered List";
+    print(filteredList);
+
+    Node* smaller;
+    Node* larger;
+    llpivot(head, smaller, larger, 10);
+    cout << "Pivoted List";
+    print(head);
+
     return 0;
 
 }
