@@ -1,4 +1,4 @@
-# Install script for directory: /home/codio/workspace/hw3/hw3_tests/testing_utils
+# Install script for directory: /work/hw3/hw3/hw3_tests/testing_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/codio/workspace/hw3/hw3_tests/testing_utils/kwsys/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/testing_utils/kwsys/cmake_install.cmake")
 
 endif()
 

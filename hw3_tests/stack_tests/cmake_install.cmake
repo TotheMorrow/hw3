@@ -1,4 +1,4 @@
-# Install script for directory: /home/codio/workspace/hw3/hw3_tests/stack_tests
+# Install script for directory: /work/hw3/hw3/hw3_tests/stack_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

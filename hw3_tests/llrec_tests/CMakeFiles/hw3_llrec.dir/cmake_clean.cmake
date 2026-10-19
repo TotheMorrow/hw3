@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hw3_llrec.dir/home/codio/workspace/hw3/llrec.cpp.o"
-  "libhw3_llrec.pdb"
+  "CMakeFiles/hw3_llrec.dir/work/hw3/hw3/llrec.cpp.o"
   "libhw3_llrec.a"
+  "libhw3_llrec.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

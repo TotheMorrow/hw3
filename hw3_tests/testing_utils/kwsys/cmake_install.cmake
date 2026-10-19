@@ -1,4 +1,4 @@
-# Install script for directory: /home/codio/workspace/hw3/hw3_tests/testing_utils/kwsys
+# Install script for directory: /work/hw3/hw3/hw3_tests/testing_utils/kwsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

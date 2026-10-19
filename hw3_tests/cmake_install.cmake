@@ -1,4 +1,4 @@
-# Install script for directory: /home/codio/workspace/hw3/hw3_tests
+# Install script for directory: /work/hw3/hw3/hw3_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/codio/workspace/hw3/hw3_tests/testing_utils/cmake_install.cmake")
-  include("/home/codio/workspace/hw3/hw3_tests/llrec_tests/cmake_install.cmake")
-  include("/home/codio/workspace/hw3/hw3_tests/stack_tests/cmake_install.cmake")
-  include("/home/codio/workspace/hw3/hw3_tests/heap_tests/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/testing_utils/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/llrec_tests/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/stack_tests/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/heap_tests/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/codio/workspace/hw3/hw3_tests/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/work/hw3/hw3/hw3_tests/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

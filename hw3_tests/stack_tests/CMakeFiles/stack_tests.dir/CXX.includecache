@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/codio/workspace/hw3/hw3_tests/stack_tests/stack_tests.cpp
+/work/hw3/hw3/hw3_tests/stack_tests/stack_tests.cpp
 stack.h
 -
 random_generator.h
@@ -18,13 +18,13 @@ iostream
 sstream
 -
 
-/home/codio/workspace/hw3/stack.h
+/work/hw3/hw3/stack.h
 vector
 -
 stdexcept
 -
 
-testing_utils/./random_generator.h
+testing_utils/random_generator.h
 random
 -
 vector

@@ -78,19 +78,15 @@ Node* llfilter(Node* head, Comp pred);
 //*****************************************************************************
 
 template <typename Comp>
-void filter_helper(Node*& head, Comp pred) {
-  if (!pred(head->val)) return;
-  Node* temp = head;
-  head = head->next;
-  delete temp;
-}
-
-template <typename Comp>
 Node* llfilter(Node* head, Comp pred)
 {
-  filter_helper(head, pred);
   if (head == NULL) return NULL;
-  return new Node(head->val, llfilter(head->next, pred));
+  if (!pred(head->val)) {
+    head->next = llfilter(head->next, pred);
+    return head;
+  } else {
+    return llfilter(head->next, pred);
+  }
 }
 
 #endif
